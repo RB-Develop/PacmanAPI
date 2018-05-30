@@ -40,8 +40,8 @@ public final class MazeLoader {
         final int width = image.getWidth();
         final int height = image.getHeight();
         final boolean[][] walls = new boolean[width][height];
-        final List<Position> dots = new ArrayList<Position>();
-        final List<Position> powerPellets = new ArrayList<Position>();
+        final List<Position> dots = new ArrayList<>();
+        final List<Position> powerPellets = new ArrayList<>();
         Position pacmanSpawn = null;
         Position blinkySpawn = null;
         Position pinkySpawn = null;
